@@ -38,6 +38,9 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  font-size: 24px;
+  padding: 16px;
+  
 }
 
 .card {
@@ -55,12 +58,15 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   width: 70%;
+  padding: 48px;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 li {
   list-style-type: none;
+  margin: 10px;
 }

@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  
+  flex: 1;
 }
 
 .middle {
@@ -34,6 +34,17 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.card-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
 }
 
 a {

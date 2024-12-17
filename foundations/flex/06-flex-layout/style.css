@@ -7,6 +7,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+
 }
 
 img {
@@ -58,16 +59,15 @@ a {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  flex: 1;
 }
 
 ul {
   gap: 15px;
 }
 
-/* .left-links {
-  justify-content: flex-start;
-}
+
 
 .right-links {
-  justify-content: flex-end;
-} */
+  padding-right: 20px;
+}
